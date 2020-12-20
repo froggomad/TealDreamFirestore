@@ -16,6 +16,6 @@ struct TealUser: Identifiable, Codable {
     // Giving a default value only affects instances we create. It uses the ID we store in Firebase when we download data
     // @DocumentID maps the uid property to Firestore when we upload or download
     // this must be optional
-    @DocumentID var id: String? = UUID().uuidString
+    @DocumentID var id: String? = "123"
     let email: String
 }
