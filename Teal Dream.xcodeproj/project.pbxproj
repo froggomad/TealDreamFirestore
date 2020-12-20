@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D594C913FAA5536902AF12 /* Pods_Teal_Dream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A615E11BB12C3722776BBE0C /* Pods_Teal_Dream.framework */; };
 		B9DD9965258FAC8E004539E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD9964258FAC8E004539E5 /* AppDelegate.swift */; };
 		B9DD9967258FAC8E004539E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD9966258FAC8E004539E5 /* SceneDelegate.swift */; };
 		B9DD9969258FAC8E004539E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD9968258FAC8E004539E5 /* ViewController.swift */; };
 		B9DD996C258FAC8E004539E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD996A258FAC8E004539E5 /* Main.storyboard */; };
 		B9DD996E258FAC8F004539E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD996D258FAC8F004539E5 /* Assets.xcassets */; };
 		B9DD9971258FAC8F004539E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD996F258FAC8F004539E5 /* LaunchScreen.storyboard */; };
+		B9DD9982258FAD45004539E5 /* TealUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD9981258FAD45004539E5 /* TealUser.swift */; };
+		B9DD9987258FAE85004539E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9DD9986258FAE85004539E5 /* GoogleService-Info.plist */; };
+		B9DD998E258FB0F6004539E5 /* TealUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD998D258FB0F6004539E5 /* TealUserController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110EB55F0D33F60FA5C76245 /* Pods-Teal Dream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teal Dream.debug.xcconfig"; path = "Target Support Files/Pods-Teal Dream/Pods-Teal Dream.debug.xcconfig"; sourceTree = "<group>"; };
+		2B844A39C3CA4F4927D332DB /* Pods-Teal Dream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teal Dream.release.xcconfig"; path = "Target Support Files/Pods-Teal Dream/Pods-Teal Dream.release.xcconfig"; sourceTree = "<group>"; };
+		A615E11BB12C3722776BBE0C /* Pods_Teal_Dream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teal_Dream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD9961258FAC8E004539E5 /* Teal Dream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teal Dream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD9964258FAC8E004539E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9DD9966258FAC8E004539E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		B9DD996D258FAC8F004539E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DD9970258FAC8F004539E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DD9972258FAC8F004539E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DD9981258FAD45004539E5 /* TealUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealUser.swift; sourceTree = "<group>"; };
+		B9DD9986258FAE85004539E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9DD998D258FB0F6004539E5 /* TealUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealUserController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D594C913FAA5536902AF12 /* Pods_Teal_Dream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DF4956E193788102BD9C8C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				110EB55F0D33F60FA5C76245 /* Pods-Teal Dream.debug.xcconfig */,
+				2B844A39C3CA4F4927D332DB /* Pods-Teal Dream.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2D975CF0A93C78741366A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A615E11BB12C3722776BBE0C /* Pods_Teal_Dream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9DD9958258FAC8E004539E5 = {
 			isa = PBXGroup;
 			children = (
 				B9DD9963258FAC8E004539E5 /* Teal Dream */,
 				B9DD9962258FAC8E004539E5 /* Products */,
+				5DF4956E193788102BD9C8C7 /* Pods */,
+				A2D975CF0A93C78741366A91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,66 @@
 		B9DD9963258FAC8E004539E5 /* Teal Dream */ = {
 			isa = PBXGroup;
 			children = (
-				B9DD9964258FAC8E004539E5 /* AppDelegate.swift */,
-				B9DD9966258FAC8E004539E5 /* SceneDelegate.swift */,
-				B9DD9968258FAC8E004539E5 /* ViewController.swift */,
-				B9DD996A258FAC8E004539E5 /* Main.storyboard */,
-				B9DD996D258FAC8F004539E5 /* Assets.xcassets */,
-				B9DD996F258FAC8F004539E5 /* LaunchScreen.storyboard */,
-				B9DD9972258FAC8F004539E5 /* Info.plist */,
+				B9DD9979258FACBD004539E5 /* Application */,
+				B9DD997F258FAD11004539E5 /* Model */,
+				B9DD997D258FACCC004539E5 /* View */,
+				B9DD998B258FB0B7004539E5 /* Controller */,
 			);
 			path = "Teal Dream";
+			sourceTree = "<group>";
+		};
+		B9DD9979258FACBD004539E5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD9986258FAE85004539E5 /* GoogleService-Info.plist */,
+				B9DD9964258FAC8E004539E5 /* AppDelegate.swift */,
+				B9DD9966258FAC8E004539E5 /* SceneDelegate.swift */,
+				B9DD996D258FAC8F004539E5 /* Assets.xcassets */,
+				B9DD9972258FAC8F004539E5 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B9DD997B258FACC4004539E5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD9968258FAC8E004539E5 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B9DD997D258FACCC004539E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD996A258FAC8E004539E5 /* Main.storyboard */,
+				B9DD996F258FAC8F004539E5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9DD997F258FAD11004539E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD9981258FAD45004539E5 /* TealUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9DD998B258FB0B7004539E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD998C258FB0BD004539E5 /* Model Controllers */,
+				B9DD997B258FACC4004539E5 /* View Controllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9DD998C258FB0BD004539E5 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD998D258FB0F6004539E5 /* TealUserController.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9DD9975258FAC8F004539E5 /* Build configuration list for PBXNativeTarget "Teal Dream" */;
 			buildPhases = (
+				845CB770B0C669F4F0F26B62 /* [CP] Check Pods Manifest.lock */,
 				B9DD995D258FAC8E004539E5 /* Sources */,
 				B9DD995E258FAC8E004539E5 /* Frameworks */,
 				B9DD995F258FAC8E004539E5 /* Resources */,
+				0936C73DDC349654E18E18CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DD9971258FAC8F004539E5 /* LaunchScreen.storyboard in Resources */,
+				B9DD9987258FAE85004539E5 /* GoogleService-Info.plist in Resources */,
 				B9DD996E258FAC8F004539E5 /* Assets.xcassets in Resources */,
 				B9DD996C258FAC8E004539E5 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +216,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0936C73DDC349654E18E18CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teal Dream/Pods-Teal Dream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teal Dream/Pods-Teal Dream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teal Dream/Pods-Teal Dream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845CB770B0C669F4F0F26B62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teal Dream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9DD995D258FAC8E004539E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DD9982258FAD45004539E5 /* TealUser.swift in Sources */,
 				B9DD9969258FAC8E004539E5 /* ViewController.swift in Sources */,
+				B9DD998E258FB0F6004539E5 /* TealUserController.swift in Sources */,
 				B9DD9965258FAC8E004539E5 /* AppDelegate.swift in Sources */,
 				B9DD9967258FAC8E004539E5 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,12 +411,13 @@
 		};
 		B9DD9976258FAC8F004539E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110EB55F0D33F60FA5C76245 /* Pods-Teal Dream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34P4RF23ET;
-				INFOPLIST_FILE = "Teal Dream/Info.plist";
+				INFOPLIST_FILE = "Teal Dream/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +431,13 @@
 		};
 		B9DD9977258FAC8F004539E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B844A39C3CA4F4927D332DB /* Pods-Teal Dream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34P4RF23ET;
-				INFOPLIST_FILE = "Teal Dream/Info.plist";
+				INFOPLIST_FILE = "Teal Dream/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

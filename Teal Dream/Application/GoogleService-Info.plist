@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>553946629618-9rpnajj6aso3r11sgodk047g6dss464q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.553946629618-9rpnajj6aso3r11sgodk047g6dss464q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAahT56KRc2zxyWJojokmdevZSluL-LZA4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>553946629618</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.DevGauge.Teal-Dream</string>
+	<key>PROJECT_ID</key>
+	<string>teal-dream</string>
+	<key>STORAGE_BUCKET</key>
+	<string>teal-dream.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:553946629618:ios:1de3977c8eab17c29f176b</string>
+</dict>
+</plist>
